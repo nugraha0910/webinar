@@ -1,0 +1,112 @@
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+    
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+  .main-top h1 {
+    font-size: 32px;
+  }  
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .main-bottom{
+    height: 1200px;
+    width: 100;
+  }
+  .header-logo{
+    padding-left: 30px;
+  }
+}
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+  header{
+    height: 50px;
+  }
+  .header-list {
+    display: none;
+  }
+  .header-logo{
+    font-size: 20px;
+    padding-left: 30px;
+  }
+  .menu-icon{
+    display:block;
+    padding:10px;
+  }
+  .main-top h1{
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .container{
+    width: 100%;
+  }
+  .main-top p{
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .daftar {
+    padding-left: 25px;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.masuk {
+    padding-left: 50px;
+    padding-top: 35px;
+}
+.btn-wrapper {
+    padding-left: 10px;
+}
+ .btn {
+    width: 100%;
+  }
+
+.facebook {
+    margin-top: 10px;
+}
+.login {
+    background-color: beige;
+    padding: 10px 120px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+  .lesson {
+    width: 100%;
+  }
+  .main-bottom{
+    height: 2000px;
+    width: 100%;
+  }
+  form {
+  width:300px;
+  margin:50px auto;
+}
+  .heading h2 {
+  font-weight: normal;
+  font-size: 18px;
+}
+.search {
+  padding:8px 15px;
+  background:rgba(50, 50, 50, 0.2);
+  border:0px solid #dbdbdb;
+}
+}
